@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.left-section {
+  position: absolute;
+  width: 520px;
+  height: 84px;
+  left: 150px;
+  top: 100px;
+}
+.heading {
+  font-family: Yeseva One;
+  font-size: 30px;
+  line-height: 80px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+hr {
+  position: relative;
+  width: 124px;
+  top: -80px;
+  right: 80px;
+  height: 4px;
+  background: #ff5959;
+  border-radius: 5px;
+  transform: rotate(90deg);
+}
+p.first-para {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.header-btn {
+  width: 172px;
+  height: 48px;
+  background: #ff5959;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: Poppins;
+  border: none;
+  font-size: 1.2rem;
+  color: #f1f1f1;
+  margin-top: 2rem;
+}
+.second-para {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 18px;
+  margin-top: 2.5rem;
+}
+.header-img {
+  position: relative;
+  width: 450px;
+  left: 800px;
+}
+
+/*my mission section style */
+
+.my-mission-header {
+  margin-top: 1.5rem;
+  font-family: Poppins;
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.my-mission-header span {
+  color: #ffad5a;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 1.3rem;
+}
+.icon {
+  width: 126px;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 300px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.a {
+  background: rgba(79, 157, 166, 0.1);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Poppins;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.card-para {
+  font-size: 18px;
+  font-family: Poppins;
+  margin-top: 1rem;
+  padding: 5px;
+}
+.b {
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 20px;
+}
+.c {
+  background: #fff4d6;
+  border-radius: 20px;
+}
+/*my mission section style end*/
+
+/* develop section style*/
+
+.develop {
+  margin-top: 20px;
+  display: flex;
+  /*  background-image: url(./images/shapes/shape-1.png);
+    background-repeat:no-repeat;
+    background-size:250px;
+    background-position:left; */
+}
+.shape {
+  position: absolute;
+  width: 227px;
+  height: 227px;
+  left: 25px;
+  top: 1248px;
+  z-index: -1;
+}
+
+.coding {
+  width: 400px;
+  position: relative;
+  left: 6rem;
+  top: 5rem;
+}
+.right-text {
+  width: 650px;
+  position: relative;
+  top: 6rem;
+  left: 10rem;
+}
+.develop-heading {
+  font-size: 35px;
+  font-family: Poppins;
+}
+.develop-para {
+  font-size: 18px;
+  font-family: Poppins;
+  margin-top: 1rem;
+}
+.develop-btn {
+  background: #ff5959;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: Poppins;
+  border: none;
+  font-size: 1.2rem;
+  color: #f1f1f1;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+/* develop section style end*/
+
+/* community section styles */
+.community {
+  margin-top: 10rem;
+}
+.community-left {
+  width: 620px;
+  position: absolute;
+  left: 6rem;
+  margin-top: 2rem;
+}
+.com-heading {
+  font-size: 35px;
+  font-family: Poppins;
+}
+.project {
+  width: 400px;
+  position: absolute;
+  right: 6rem;
+}
+.com-shape {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right: 1.2rem;
+  top: 1940px;
+  z-index: -1;
+}
+/* community section styles end */
+.tour {
+  display: flex;
+  justify-content: center;
+}
+.tour-heading {
+  position: absolute;
+  top: 2100px;
+  display: block;
+  margin: auto;
+}
+.tour-title {
+  font-family: Poppins;
+  font-size: 40px;
+}
+.plan {
+  margin-left: 10px;
+  color: #ffad5a;
+}
+
+.tour-cards {
+  display: flex;
+  justify-content: center;
+}
+.tour-section {
+  position: absolute;
+  top: 2200px;
+}
+.card {
+  width: 340px;
+  background: #dac4c4;
+  margin: 20px;
+  padding: 0;
+  border-radius: 20px;
+}
+.tour-image {
+  width: 340px;
+  border-radius: 20px;
+}
+.tour-card-heading {
+  font-family: Poppins;
+  font-size: 30px;
+  padding: 20px;
+}
+.tour-para {
+  font-family: Poppins;
+  font-size: 18px;
+  padding: 20px;
+}
+.footer {
+    position:absolute;
+    top:2800px;
+    display:flex;
+    align-items: center;
+}
+
+.footer{
+    background:#000;
+    width:100%; 
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+.footer-heading{
+    color:#f1f1f1;
+    font-family: 'Lobster', cursive;
+    font-size:30px;
+    letter-spacing:2px;
+    font-weight: 400;
+    padding:10px;
+    margin-top:20px;
+}
+.footer-2{
+    color:red;
+}
+.footer-para{
+    color:#f1f1f1;
+    font-family:Poppins;
+}
